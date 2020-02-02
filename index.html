@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <title>Vanilla Todo List</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center m-4 text-white">TODO LIST</h1>
+        <div class="row">
+            <div class="todoForm">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="todoInput" placeholder="Feed my cat...">
+                    </div>
+                    <button id="todoButton" type="submit" class="addButton"><strong class="text-white">ADD</strong></button>
+                </form>
+
+                <div id="todoContent">
+                    <ul id="todoList">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <nav class="navbar fixed-bottom ">
+            <a class="nav-link" target='blank' href="https://github.com/tlgadrkn">Github</a>
+        </nav>
+
+        <script src="app.js"></script>
+</body>
+
+</html>
